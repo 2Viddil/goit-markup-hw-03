@@ -170,11 +170,14 @@ button {
     column-gap: 30px;
     margin-left: 215px;
     padding-bottom: 94px;
+
 }
 
-.img-team h3 {
-    display: flex;
-    align-items: center;
+.team-name {
+    background-color: var(--background-color);
+    padding: 30px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 /*---Futer--*/
@@ -346,6 +349,7 @@ button {
 
 .advantage p {
     width: 270px;
+
 }
 
 .advantage p,
@@ -396,15 +400,16 @@ button {
     padding-bottom: 50px;
 }
 
-.team  h3 {
+.team h3 {
     color: var(--main-text-color);
 
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    padding-top: 30px;
- 
+
+
+
 }
 
 .team p {
