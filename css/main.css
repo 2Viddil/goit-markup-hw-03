@@ -379,7 +379,8 @@ button {
 }
 
 
-.button:hover {
+.button:hover,
+.button:focus {
     background-color: var(--activ-color);
     color: var(--background-color);
 
